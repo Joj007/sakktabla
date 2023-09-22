@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body onload="letrehoz()">
+    <input onchange="letrehoz()" min="2" max="10" step="1" id="SliSorokSzama" type="range"> <label for="SliSorokSzama">Sorok/oszlopok száma</label>
+    <br>
+    <input onchange="letrehoz()" min="20" max="100" step="1" id="SliSzelesseg" type="range"> <label for="SliSzelesseg">szélessége</label>
+    <div id="tabla"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
